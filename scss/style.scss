@@ -243,31 +243,6 @@
             max-width: 70px;
         }
     }
-    &__image {
-        animation-name: rotate;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-}
-@keyframes rotate {
-    0% {
-        transform: scaleY(-1) translateY(100%);
-    }
-    20% {
-        transform: scale(1) translateY(0);
-    }
-    40% {
-        transform: scaleX(-1) translate(-100%, -100%);
-    }
-    60% {
-        transform: scaleX(1) translate(0);
-    }
-    80%{
-        transform: scaleX(-1) translate(-100%);
-    }
-    100%{
-        transform: scaleX(1) translate(0);
-    }
 }
 .productions {
     padding-bottom: 150px;
